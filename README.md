@@ -1,23 +1,23 @@
-# Morph: Automatización de Planificaciones Docentes
+# Morph: Educational Planning Automation
 
-## Descripción
-Morph es un sistema diseñado para automatizar la adaptación de planificaciones docentes a los cambiantes formatos institucionales (DOCX). Utilizando un stack basado en Pandoc, LaTeX y agentes autónomos, Morph extrae el contenido y lo reinserta en las plantillas oficiales, eliminando el trabajo manual de formato.
+## Description
+Morph is a system designed to automate the adaptation of educational planning documents to changing institutional formats (DOCX). Using a stack based on Pandoc, LaTeX, and autonomous agents, Morph extracts content and reinserts it into official templates, eliminating manual formatting work.
 
-## Objetivos
-- Extraer contenido de documentos DOCX institucionales.
-- Aplicar plantillas LaTeX predefinidas para cumplir con los requisitos estéticos.
-- Automatizar el flujo de trabajo mediante un agente autónomo.
-- Proveer un script de instalación (`install.sh`) para entornos Debian.
+## Objectives
+- Extract content from institutional DOCX documents.
+- Apply predefined LaTeX templates to meet aesthetic requirements.
+- Automate the workflow through an autonomous agent.
+- Provide an installation script (`install.sh`) for Debian environments.
 
-## Stack Tecnológico
-- **Pandoc**: Conversión de documentos.
-- **LaTeX**: Motor de renderizado para documentos finales.
-- **Debian**: Sistema operativo objetivo.
+## Technology Stack
+- **Pandoc**: Document conversion.
+- **LaTeX**: Rendering engine for final documents.
+- **Debian**: Target operating system.
 
-## Estructura del Proyecto
-- `/scripts`: Scripts de automatización e instalación.
-- `/templates`: Plantillas LaTeX.
-- `/docs`: Documentación técnica.
+## Project Structure
+- `/scripts`: Automation and installation scripts.
+- `/templates`: LaTeX templates.
+- `/docs`: Technical documentation.
 
-## Instalación
-Ejecuta `./scripts/install.sh` en un entorno Debian para configurar las dependencias.
+## Installation
+Run `./scripts/install.sh` in a Debian environment to set up dependencies.
