@@ -1,0 +1,19 @@
+\documentclass[../main.tex]{subfiles}
+\usepackage{comment,setspace}
+
+\setstretch{1.5}
+\begin{document}
+
+\section*{DIAGNÓSTICO AULICO: AÑO 2025}
+\begin{tabular}{r l}
+\textbf{CURSO :}& 4° 1°\\
+\end{tabular}
+
+\vspace{1cm}
+Este diagnóstico se basa en la observación del desempeño académico y comportamiento en clase. Los estudiantes poseen una sólida base en matemáticas, fundamental para su formación en Electrotecnia II. Su capacidad para comprender y aplicar conceptos matemáticos les proporciona una ventaja significativa en su formación técnica.
+
+Asimismo, muestran una actitud positiva y predisposición para aprender, participando activamente. Sin embargo, persisten desafíos como las distracciones por uso de celular en clase, que interfieren en la concentración y entrega de tareas. La conectividad a internet sigue siendo un recurso limitado que afecta las actividades. 
+
+A pesar de esto, se reconoce el potencial de estos alumnos, trabajando con estrategias innovadoras y apoyo individualizado para fomentar un ambiente de aprendizaje estimulante.
+
+\end{document}

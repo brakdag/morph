@@ -1,0 +1,65 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{subfiles,afterpage,fancyhdr,geometry,tikz,enumitem,longtable,comment}
+\geometry{
+ a4paper,
+ landscape,
+ left=10mm,
+ top=30mm,
+ right=14mm,
+ bottom=5mm
+ }
+
+\renewcommand{\familydefault}{\sfdefault}
+\newcommand{\vertical}[1]{\rotatebox[origin=r]{90}{#1}}
+\newcommand{\tiempos}{\vertical{6 semanas}}
+\newcommand{\evaluacion}{Para evaluar el aprendizaje en relación a los saberes prioritarios del contenido, pruebas escritas, ejercicios prácticos, proyectos individuales o en grupo, y observación del desempeño de los estudiantes.}
+\newcommand{\recursos}{Pizarrón, proyectores, videos, simuladores, libros de texto, materiales manipulativos y plataformas digitales}
+
+% Definir un nuevo estilo de encabezado
+\fancypagestyle{myheader}{
+    \fancyhf{}
+    \renewcommand{\headrulewidth}{0pt}
+    \renewcommand{\footrulewidth}{0pt}
+    \fancyhead[C]{%
+        \begin{tikzpicture}[remember picture,overlay]
+           % Assuming images in ../Resources/modelo/word/media/image1.jpeg
+           \draw (0,1) node {\includegraphics[scale=0.5]{../Resources/modelo/word/media/image1.jpeg}};
+           \draw (0,0) node {Escuela 4-124 "Reynaldo Merín"};
+           \draw (-14,-0.5) -- (14,-0.5);
+           \draw (13.5cm,-17.5cm) node  {\thepage};
+        \end{tikzpicture}%
+    }
+}
+
+\pagestyle{myheader}
+
+\begin{document}
+
+\begin{tikzpicture}[remember picture,overlay]
+    % \draw (23,-3.5) node {\includegraphics[scale=0.4]{images/logos/4124.png}}; % Placeholder
+\end{tikzpicture}
+\center{
+DIRECCIÓN DE EDUCACIÓN TÉCNICA Y TRABAJO
+
+ESCUELA TÉCNICA Nº 4-124 “REYNALDO MERÍN”
+
+ALBERDI Nº 1.270- SAN RAFAEL
+
+MENDOZA TELEFAX: 0260-4433178
+}
+
+\section*{PLANIFICACIÓN ANUAL 2025}
+
+\raggedright
+\begin{tabular}{r l}
+\textbf{ESPACIO CURRICULAR:}& ELECTROTECNIA II\\
+\textbf{CURSO :}& 4° 1°\\
+\textbf{PROFESOR/A:}    & FERREYRA GUSTAVO DAVID \\
+\textbf{TITULO DEL EGRESADO:}&Técnico en Electricidad
+\end{tabular}
+
+\subfile{content/diagnostico.tex}
+\newpage
+\subfile{content/programa.tex}
+
+\end{document}

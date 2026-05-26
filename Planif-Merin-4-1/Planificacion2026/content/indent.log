@@ -1,0 +1,27 @@
+INFO:  latexindent version 3.24.7, 2025-08-15, a script to indent .tex files
+       latexindent lives here: /mnt/DataSD/texlive/2025/texmf-dist/scripts/latexindent/
+       Tue Mar 17 00:50:22 2026
+       Filename: /mnt/DataSD/sandbox/Planif-Merin-4-1/Planificacion2026/content/planificacion.tex
+INFO:  Processing switches:
+       -s|--silent: Silent mode active (you have used either -s or --silent)
+       -w|--overwrite: Overwrite mode active, will make a back up before overwriting
+INFO:  Directory for backup files and log file indent.log:
+       /mnt/DataSD/sandbox/Planif-Merin-4-1/Planificacion2026/content
+INFO:  YAML settings read: defaultSettings.yaml
+       Reading defaultSettings.yaml from /mnt/DataSD/texlive/2025/texmf-dist/scripts/latexindent/defaultSettings.yaml
+INFO:  YAML reading settings
+       Home directory is /home/gustavo
+       latexindent.pl didn't find indentconfig.yaml or .indentconfig.yaml
+       see all possible locations: https://latexindentpl.readthedocs.io/en/latest/sec-appendices.html#indentconfig-options)
+INFO:  Backup procedure (-w flag active):
+       Backing up /mnt/DataSD/sandbox/Planif-Merin-4-1/Planificacion2026/content/planificacion.tex to /mnt/DataSD/sandbox/Planif-Merin-4-1/Planificacion2026/content/planificacion.bak0...
+       /mnt/DataSD/sandbox/Planif-Merin-4-1/Planificacion2026/content/planificacion.tex will be overwritten after indentation
+INFO:  Phase 1: searching for objects
+INFO:  Phase 2: finding surrounding indentation
+INFO:  Phase 3: indenting objects
+INFO:  Phase 4: final indentation check
+INFO:  Output routine:
+       Overwriting file /mnt/DataSD/sandbox/Planif-Merin-4-1/Planificacion2026/content/planificacion.tex
+       --------------
+INFO:  Please direct all communication/issues to:
+        https://github.com/cmhughes/latexindent.pl

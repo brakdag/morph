@@ -1,0 +1,146 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{subfiles,afterpage,fancyhdr,geometry,tikz,enumitem,longtable,comment}
+\geometry{
+ a4paper,
+ landscape,
+ left=10mm,
+ top=30mm,
+ right=14mm,
+ bottom=5mm
+ }
+
+\renewcommand{\familydefault}{\sfdefault}
+\newcommand{\vertical}[1]{\rotatebox[origin=r]{90}{#1}}
+\newcommand{\tiempos}{\vertical{6 semanas}}
+\newcommand{\evaluacion}{Para evaluar el aprendizaje en relación a los saberes prioritarios del contenido, pruebas escritas, ejercicios prácticos, proyectos individuales o en grupo, y observación del desempeño de los estudiantes.}
+\newcommand{\recursos}{Pizarrón, proyectores, videos, simuladores, libros de texto, materiales manipulativos y plataformas digitales}
+
+% Definir un nuevo estilo de encabezado
+\fancypagestyle{myheader}{
+    \fancyhf{}
+    \renewcommand{\headrulewidth}{0pt}
+    \renewcommand{\footrulewidth}{0pt}
+    \fancyhead[C]{%
+        \begin{tikzpicture}[remember picture,overlay]
+           % Assuming images in ../Resources/modelo/word/media/image1.jpeg
+           \draw (0,1) node {\includegraphics[scale=0.5]{../Resources/modelo/word/media/image1.jpeg}};
+           \draw (0,0) node {Escuela 4-124 "Reynaldo Merín"};
+           \draw (-14,-0.5) -- (14,-0.5);
+           \draw (13.5cm,-17.5cm) node  {\thepage};
+        \end{tikzpicture}%
+    }
+}
+
+\pagestyle{myheader}
+
+\begin{document}
+
+\begin{tikzpicture}[remember picture,overlay]
+	% \draw (23,-3.5) node {\includegraphics[scale=0.4]{images/logos/4124.png}}; % Placeholder
+\end{tikzpicture}
+\center{
+	DIRECCIÓN DE EDUCACIÓN TÉCNICA Y TRABAJO
+
+	ESCUELA TÉCNICA Nº 4-124 “REYNALDO MERÍN”
+
+	ALBERDI Nº 1.270- SAN RAFAEL
+
+	MENDOZA TELEFAX: 0260-4433178
+}
+
+\section*{PLANIFICACIÓN ANUAL 2025}
+
+\raggedright
+\begin{tabular}{r l}
+	\textbf{ESPACIO CURRICULAR:}  & ELECTROTECNIA II        \\
+	\textbf{CURSO :}              & 4° 1°                   \\
+	\textbf{PROFESOR/A:}          & FERREYRA GUSTAVO DAVID  \\
+	\textbf{TITULO DEL EGRESADO:} & Técnico en Electricidad
+\end{tabular}
+
+\subfile{content/diagnostico.tex}
+\newpage
+\subfile{content/programa.tex}
+\newpage
+
+\subsection*{SABERES A DESARROLLAR:}
+
+\begin{longtable}[h!]{|p{1cm}|p{3cm}|p{8cm}|p{6cm}|p{3.5cm}|p{3cm}|}
+\hline
+\vertical{EJE} & SABERES PRIORITARIOS & APRENDIZAJES ESPECÍFICOS & ESTRATEGIAS DE ENSEÑANZA APRENDIZAJE & CRITERIOS DE EVALUACIÓN & RECURSOS DIDÁCTICOS Y BIBLIOGRAFÍA \\
+\endhead
+\hline
+\vertical{CIRCUITOS RESISTIVO- CAPACITIVOS} & Conocer los
+procedimientos de cálculo
+en un circuito con
+características capacitivas
+transitorias. & \begin{itemize}\item Caracterización de la obtención analítica de la constante
+de tiempo, en circuitos resistivo-capacitivos, con corriente
+eléctrica continua.\item Interpretación de fenómenos de carga y descarga en un
+circuito en un esquema de aplicación resistivo-capacitivo.
+\item Análisis comparativo de las características de las curvas
+de carga-descarga energética, utilizando software
+específico.
+\item Comprobación y síntesis de cálculos eléctricos analíticos,
+relacionados con componentes capacitivos energizados,utilizando software específico. \end{itemize} & Para enseñar la caracterización de la obtención analítica de la constante de tiempo en circuitos resistivo-capacitivos con corriente eléctrica continua, se pueden utilizar ejemplos prácticos y experimentales que permitan a los estudiantes comprender la relación entre la resistencia, capacitancia y el tiempo de carga o descarga. Se pueden utilizar simulaciones y demostraciones prácticas para la interpretación de fenómenos de carga y descarga. Además, se puede realizar el análisis comparativo de las curvas de carga-descarga energética utilizando software específico. Finalmente, para la comprobación y síntesis de cálculos eléctricos, se pueden utilizar herramientas de software que permitan a los estudiantes realizar cálculos más precisos y analizar la respuesta del circuito en diferentes situaciones. & \evaluacion & \recursos \\
+\hline
+\vertical{INDUCCIÓN ELECTROMAGNÉTICA} & Analizar de modo crítico las
+leyes electromagnéticas
+relacionadas con la interacción entre circuitos
+con alimentación eléctrica. & \begin{itemize}
+    \item Conceptualización de las leyes de Faraday-Lenz
+relacionadas con la fuerza electromotriz en bobinas inductivas.
+\item Reconocimiento de las características ferromagnéticas de
+los circuitos de aplicación según Hopkinson.
+\item Interpretación de las características magnéticas
+desarrolladas por Biot-Savart.
+\item  Distinción entre las conclusiones electromagnéticas
+enunciadas por Gauss, Maxwell, Tesla y Weber, respecto
+del comportamiento de los circuitos frente a la influencia
+de electricidad en esquemas ferromagnetizables. \end{itemize}& Se pueden utilizar demostraciones prácticas que permitan a los estudiantes entender la relación entre el flujo magnético y la generación de la fuerza electromotriz. Se puede enseñar el reconocimiento de las características ferromagnéticas de los circuitos de aplicación según Hopkinson utilizando ejemplos prácticos y casos reales. Además, para la interpretación de las características magnéticas desarrolladas por Biot-Savart, se pueden utilizar herramientas visuales y gráficas que permitan una mejor comprensión. Finalmente, para la distinción entre las conclusiones electromagnéticas de Gauss, Maxwell, Tesla y Weber.&\evaluacion & \recursos \\ 
+\hline
+& Conocer los principios de
+inducción y autoinducción
+electromagnética desde el
+punto de vista de
+interacción energética. & \begin{itemize}
+    \item Caracterización de los fenómenos de inducción
+magnética e inducción mutua en circuitos con
+alimentación eléctrica.
+\item Caracterización de la reluctancia magnética y la fuerza
+magneto-motriz desde una perspectiva de interacción
+entre ambos fenómenos.
+\item Interpretación de la autoinducción como fenómeno
+electromagnético propio, vinculado con las características
+intrínsecas de una bobina energizada.
+\item Formalización de las reglas prácticas de uso anatómico.
+\item Aplicación de los sistemas de unidades C.G.S. y/o
+Internacional desde una óptica magnética, en la
+resolución de circuitos de modelaje electromagnético.
+
+\end{itemize} & Para enseñar estos saberes, se puede utilizar la técnica de aprendizaje basada en problemas, donde los estudiantes deben resolver problemas prácticos relacionados con circuitos eléctricos y magnéticos. Además, se pueden incluir demostraciones y experimentos en el aula para ilustrar los conceptos y hacerlos más tangibles. También se puede utilizar el método de enseñanza cooperativa, donde los estudiantes trabajan en grupos para resolver problemas y compartir ideas y conocimientos. &\evaluacion & \recursos \\ \hline
+
+\vertical{PRINCIPIOS FUNDAMENTALES DE LA ENERGÍA ALTERNA} & Conocer la naturaleza de
+generación de energía
+eléctrica alterna.  & \begin{itemize}
+    \item Reconocimiento del origen técnico-eléctrico de energía
+alterna.
+\item Interpretación gráfica de la onda senoidal, desde un punto
+de vista eléctrico con energía alterna presente.
+\item Formalización de la energía alterna. 
+\end{itemize}& Utilizar demostraciones prácticas y ejemplos cotidianos para explicar el concepto de energía alterna, dibujar y analizar gráficamente ondas senoidales y comparar las características de la energía alterna con la energía continua. &\evaluacion & \recursos \\
+\hline
+& Comprender el uso de la
+energía alterna en el
+mundo energético actual. & \begin{itemize}
+    \item  Argumentación de las características intrínsecas de la
+energía eléctrica alterna.
+\item Formulación de los valores típicos representativos de
+origen energético alterno senoidal.
+\item Conceptualización de las fórmulas técnicas eléctricas, que
+son de aplicación en el estudio de la energía alterna. 
+\end{itemize} & Una estrategia efectiva para enseñar estos aprendizajes podría ser utilizar ejemplos prácticos y experimentales para demostrar las características de la energía eléctrica alterna y su formulación matemática. Además, es útil utilizar analogías o comparaciones con la energía eléctrica continua para facilitar la comprensión. &\evaluacion & \recursos   \\ \hline
+
+\end{longtable}
+
+\end{document}

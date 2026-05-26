@@ -1,0 +1,25 @@
+\documentclass[../main.tex]{subfiles}
+\begin{document}
+
+\section*{\centering PROGRAMA DE ESTUDIOS 2026}
+
+\vspace{2cm}
+\begin{tabular}{r l}
+	\textbf{ESPACIO CURRICULAR:}  & ELECTROTECNIA II        \\
+	\textbf{CURSO :}              & 4° 1°                   \\
+	\textbf{PROFESOR/A:}          & FERREYRA GUSTAVO DAVID  \\
+	\textbf{TITULO DEL EGRESADO:} & Técnico en Electricidad
+\end{tabular}
+
+\vspace{1cm}
+Electrotecnia II profundiza los saberes relacionados con la asociación y comportamiento de capacitores (carga eléctrica), inducción electromagnética y los principios fundamentales de la energía alterna.
+
+Se proponen situaciones problemáticas sobre electromagnetismo y análisis crítico del comportamiento de capacitores.
+
+\begin{enumerate}
+	\item CIRCUITOS RESISTIVO- CAPACITIVOS
+	\item INDUCCIÓN ELECTROMAGNÉTICA
+	\item PRINCIPIOS FUNDAMENTALES DE LA ENERGÍA ALTERNA
+\end{enumerate}
+
+\end{document}
